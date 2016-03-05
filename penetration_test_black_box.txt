@@ -1,0 +1,66 @@
+Question ideas for full black box penetration test phases
+=======
+
+- Online resources available against the target? (websites, services, social networks)
+
+- Active enumeration start, any protections (eg. WAF or DBFW)?
+
+- Port scan and fingerprinting? Identified background services (eg. if its a webapp, what's behind (load balancer, nginx, apache, python)?)
+
+- How things connect together? Full picture of currently collected info/topology?  
+
+- Default passwords or weak passwords used for auth?
+
+- Do we need to / can we create a virtual copy of the attacked systems? (may it be required later for exploit development?)
+
+- Automatic scanning done?
+
+- Any login details, default passwords? Any upload possibilities (eg. wp shell or other addon)?
+
+- Manual testing for vulns done?
+
+- List of possible attack surfaces, evasion (if needed) and vulnerabilities?
+
+- Social engineering?
+      - Sending emails?
+      - Phone calls?
+      - Contact through social media?
+
+- Looks exploitable, but shell does not come back?
+      - Using the touch command on web server to see if it really works?
+      - DNS tunneling?
+      - DoS (be careful to not break production!)?
+
+- Got shell? Windows? Linux?
+
+  - Security related software checks?
+      - On Windows, examples: antivirus, EMET (or other anti-exploitation software), applocker, powershell or it's functions locked, logging?
+      - On Linux, examples: antivirus, Grsec/Pax, apparmor, SELinux, auditd, remote logging, keyloggers?
+
+  - What can we do with Windows?
+      - Admin already? Local priv esc vulns?
+      - Readable files with passwords or crackable?
+      - SAM dump (hive, local)?
+      - Copy SAM database from backup?
+      - Cachedump (security hive, domain, more complicated)?
+      - LSASS dump (memory)?
+      - Tokens? Impersonation?
+      - WMI?
+      - Misconfigured services?
+      - Tickets (Kerberos)?
+      - Wrong permissions? System running world writable files?
+      - Local privilege escalation exploits?
+      - Other users and their interaction?
+       
+  - What can we do with Linux?
+      - Root already? Local priv esc vulns?
+      - sudo (su)?
+      - Readable files with passwords or crackable?
+      - /etc/passwd users?
+      - Wrong permissions? Guid/suid? rwxrwxrwx?
+      - Misconfigured services?
+      - Local privilege escalation exploits?
+      - Other users and their interaction (eg. X hacking)?
+     
+
+Note: it's not a good idea to take it as a checklist and think the pentest is done. These are better to be considered as some kind of minimum requirements which should be answerable.

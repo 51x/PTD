@@ -1,0 +1,24 @@
+Documents containing usable ideas
+=======
+
+Penetration testing execution standard
+http://www.pentest-standard.org
+
+OISSG-ISSAF
+http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologia_oissg.pdf
+
+OWASP
+https://www.owasp.org/index.php/Web_Application_Penetration_Testing
+
+OSSTMM
+http://www.isecom.org/research/osstmm.html
+
+SANS Conducting a Penetration Test
+https://www.sans.org/reading-room/whitepapers/auditing/conducting-penetration-test-organization-67
+
+NIST SP800-115
+http://csrc.nist.gov/publications/nistpubs/800-115/SP800-115.pdf
+
+Pentest checklist
+http://www.steve-shead.com/infosec/penetration-test-checklist/
+
