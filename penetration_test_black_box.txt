@@ -49,6 +49,7 @@ Question ideas for full black box penetration test phases
       - Misconfigured services?
       - Tickets (Kerberos)?
       - Wrong permissions? System running world writable files?
+      - Bypass of functions (eg. applocker bypasses)?
       - Local privilege escalation exploits?
       - Other users and their interaction?
        
@@ -59,6 +60,7 @@ Question ideas for full black box penetration test phases
       - /etc/passwd users?
       - Wrong permissions? Guid/suid? rwxrwxrwx?
       - Misconfigured services?
+      - Bypass of functions (eg. apparmor bypass)?
       - Local privilege escalation exploits?
       - Other users and their interaction (eg. X hacking)?
      
