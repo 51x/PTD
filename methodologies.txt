@@ -9,6 +9,7 @@ http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologi
 
 OWASP
 https://www.owasp.org/index.php/Web_Application_Penetration_Testing
+https://www.owasp.org/index.php/Testing_Checklist
 
 OSSTMM
 http://www.isecom.org/research/osstmm.html
