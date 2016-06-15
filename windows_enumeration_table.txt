@@ -1,0 +1,26 @@
+                     Value                          Command                           Command 2
+Privilege                                           whoami                            set
+Hostname                                            sysinfo                           set
+OS                                                  sysinfo 
+Arch                                                sysinfo                           set
+Domain                                              sysinfo                           set
+Users                                               net users   
+Admin users                                         net localgroup administrators   
+User groups                                         net user /domain                  net localgroup
+Ip address(es)                                      ipconfig /all   
+Default Gateway                                     ipconfig /all   
+
+Shares used                                         net share   
+    
+    
+Firewall                                            netsh firewall show config        netsh firewall show opmode
+AntiVirus/ES
+AppLocker                                           copy c:\Windows\System32\cmd.exe %TEMP%\a.exe && %TEMP%\a.exe
+EMET                                                tasklist | findstr EMET
+
+Running programs                                    tasklist                          tasklist /svc
+
+Services listening                                  netstat -ano
+
+Services started                                    net start
+
