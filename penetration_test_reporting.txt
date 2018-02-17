@@ -1,0 +1,7 @@
+- Cover page with title, author, date and that it's confidential
+- Table of Contents
+- Summary of the penetration test
+- Scope, origination ip addresses and tools used
+- Management summary (for the non-technical)
+- Vulnerability details (start with a legend)
+- Additional information
