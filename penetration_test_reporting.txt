@@ -5,7 +5,7 @@ Tips
 - Scope, origination ip addresses and tools used
 - Management summary (for the non-technical)
 - Remember to write the positive findings too (that's just too overlooked!)
-- Vulnerability details (start with a legend)
+- Vulnerability details (start with a legend, explain what is considered critical, high, etc.)
 - Additional information
 
 
@@ -13,4 +13,9 @@ Table of Contents (Example)
 1. Overview and scope
 2. Management summary
 3. Vulnerabilities
+  3.1 Legend
+  3.2 Critical vulnerabilities
+  3.3 High vulnerabilities
+  3.4 Medium vulnerabilities
+  3.5 Low vulnerabilities
 4. Additional attachments, logs
