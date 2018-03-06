@@ -1,7 +1,16 @@
+Tips
 - Cover page with title, author, date and that it's confidential
 - Table of Contents
 - Summary of the penetration test
 - Scope, origination ip addresses and tools used
 - Management summary (for the non-technical)
+- Remember to write the positive findings too (that's just too overlooked!)
 - Vulnerability details (start with a legend)
 - Additional information
+
+
+Table of Contents (Example)
+1. Overview and scope
+2. Management summary
+3. Vulnerabilities
+4. Additional attachments, logsb
