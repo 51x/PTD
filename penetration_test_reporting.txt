@@ -13,4 +13,4 @@ Table of Contents (Example)
 1. Overview and scope
 2. Management summary
 3. Vulnerabilities
-4. Additional attachments, logsb
+4. Additional attachments, logs
